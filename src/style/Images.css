@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.image-Component{
+    display: flex;
+    float: right;
+    gap: 20px;
+    margin: -430px 0px 100px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    margin: 90px 0px 0px 30px;
+    gap: 50px;
+    
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.imgCard{
+    height: 350px;
+    width: 300px;
+    border-radius: 35px;
+    border: 1px solid #333333;
+    object-fit: cover;
+    cursor: pointer ;
+    transition: transform 0.3s ease-in-out;
+}
+.imgCard:hover {
+    transform: scale(1.1);
+  }
+
+  @media screen and (max-width: 767px) {
+    .image-Component{
+       width: 90vw;
+       gap: 0px;
+       float: none;
+       margin: 20px auto;
+    }
+    .imgCard {
+        height: 182px;
+        width: 147px;
+        border-radius: 35px;
+        border: 1px solid #333333;
+        object-fit: cover;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+    }
+    .left {
+        gap: 15px;
+    }
+    .right {
+        gap: 15px;
+    }
+  }
+
+ 

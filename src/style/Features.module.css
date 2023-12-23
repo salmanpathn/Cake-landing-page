@@ -1,0 +1,50 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.F-component{
+    margin-top: 60px;
+    border: 1px solid #333333;
+    display: flex;
+    padding: 29px 36px;
+    border-radius: 32px;
+    width: 495px;
+    gap: 64px;
+    
+}
+.title-heading h2{
+    color: #333333;
+    margin-bottom: 7px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26.4px;
+}
+
+.title-paragraph{
+    color: #333333;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21.6px;
+}
+
+@media screen and (max-width: 768px) {
+    .F-component {
+        width: 90vw;
+        margin: auto;
+        border: 1px solid #333333;
+        display: flex;
+        padding: 15px 18px;
+        border-radius: 32px;
+        gap: 10px;
+        margin-bottom: 20px;
+
+    }
+    .title-paragraph{
+        color: #333333;
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 14.6px;
+    }
+}

@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lugrasimo&family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.H-component {
+    width: 495px;
+    height: 396px;
+    margin-top: 130px;
+    gap: 24px;
+}
+
+h1 {
+    color: #333333;
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    line-height: 76.8px;
+    font-family: 'lato';
+
+}
+.H-paragraph{
+    margin: 16px 0px 24px 0px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #333333;
+    font-family: 'lato';
+
+}
+#H-component-btn{
+    background-color: #333333;
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+    font-family: 'lato';
+    font-weight: 500;
+    line-height: 18px;
+    padding: 21px 50px ;
+    border-radius: 40px;
+    border: none;
+}
+#H-component-btn:hover{
+    background-color: #feb678;
+    cursor: pointer;
+    color: #4b3126;
+}
+
+@media screen and (max-width: 768px) {
+    .H-component {
+        width: 90vw;
+        margin: auto;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .H-paragraph{
+        font-size: 16px;
+        width: 90vw;
+    }
+
+    #H-component-btn{
+        font-size: 12px;
+        padding: 10px 25px ;
+      
+    }
+  }
